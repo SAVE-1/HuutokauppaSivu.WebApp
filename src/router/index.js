@@ -3,6 +3,7 @@ import Home from '../views/Home.vue'
 import Test from '../views/Test.vue'
 import Search from '../views/Search.vue'
 import Catalog from '../views/Catalog.vue'
+import AddItem from '../views/AddItem.vue'
 
 const routes = [
   {
