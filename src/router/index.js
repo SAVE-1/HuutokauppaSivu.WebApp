@@ -32,6 +32,11 @@ const routes = [
     path: '/catalog',
     name: 'Catalog',
     component: Catalog
+  },
+  {
+    path: '/AddItem',
+    name: 'AddItem',
+    component: AddItem
   }
 ]
 

@@ -4,7 +4,8 @@
     <router-link to="/about">About</router-link> |
     <router-link to="/test">Test</router-link> |
     <router-link to="/search">Search</router-link> |
-    <router-link to="/catalog">Catalog</router-link>
+    <router-link to="/catalog">Catalog</router-link> |
+    <router-link to="/additem">Add Item</router-link>
   </div>
   <router-view/>
 </template>
