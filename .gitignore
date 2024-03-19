@@ -21,3 +21,7 @@ pnpm-debug.log*
 *.njsproj
 *.sln
 *.sw?
+/.vs/VSWorkspaceState.json
+/.vs/web-app/v17
+/.vs/web-app/v17/.wsuo
+/.vs/web-app/v17/DocumentLayout.json
