@@ -1,24 +1,26 @@
 # web-app
+A small Asp.Net 8 core web api practice project for a imaginary web shop
 
-## Project setup
-```
-npm install
-```
+## Requirements
+- MSSQL Express
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Configuration file (appsettings.Development.json)
+````
+{
+  "ConnectionStrings": {
+    ""
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  }
+}
+````
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## How to generate the database
+````
+dotnet ef migrations add InitialCreate
+dotnet ef database update
+````
