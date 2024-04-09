@@ -4,6 +4,7 @@ import Test from '../views/Test.vue'
 import Search from '../views/Search.vue'
 import Catalog from '../views/Catalog.vue'
 import AddItem from '../views/AddItem.vue'
+import Login from '../views/Login.vue'
 
 const routes = [
   {
@@ -38,6 +39,11 @@ const routes = [
     path: '/AddItem',
     name: 'AddItem',
     component: AddItem
+  },
+  {
+    path: '/Login',
+    name: 'Login',
+    component: Login
   }
 ]
 

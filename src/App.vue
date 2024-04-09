@@ -5,7 +5,8 @@
     <router-link to="/test">Test</router-link> |
     <router-link to="/search">Search</router-link> |
     <router-link to="/catalog">Catalog</router-link> |
-    <router-link to="/additem">Add Item</router-link>
+    <router-link to="/additem">Add Item</router-link> |
+    <router-link to="/login">Login</router-link>
   </div>
   <router-view/>
 </template>
